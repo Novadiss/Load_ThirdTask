@@ -1,0 +1,5 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1720983530483,35,http://localhost:8000/client/index.php,200,OK,Thread Group 1-1,text,true,,5133,510,1,1,http://localhost:8000/client/index.php,33,0,15
+1720983533517,7,http://localhost:8000/client/hall.php,200,OK,Thread Group 1-1,text,true,,5068,561,1,1,http://localhost:8000/client/hall.php,7,0,0
+1720983538943,9,http://localhost:8000/client/payment.php,200,OK,Thread Group 1-1,text,true,,5069,564,1,1,http://localhost:8000/client/payment.php,9,0,1
+1720983530438,51,Test,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,15270,1635,1,1,null,49,8462,16
